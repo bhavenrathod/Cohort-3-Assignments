@@ -15,4 +15,7 @@ function isAnagram(str1, str2) {
   return sortString(str1) === sortString(str2);
 }
 
+console.log(isAnagram("hello", "olleh"));
+console.log(isAnagram("anagram", "naga"));
+
 module.exports = isAnagram;
